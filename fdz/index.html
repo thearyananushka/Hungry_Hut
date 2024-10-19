@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hungry Hut</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- font awesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body>
+    <!-- desktop view -->
+    <div id="container" class="container">
+        <div id="menu">
+            <div class="brand-logo">
+                <img src="./images/lgo.png" alt="logo" >
+            </div>
+            <div class="menu-item">
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Your Orders</a>
+                <a href="#">Wishlist</a>
+                <a href="#">Address</a>
+                <a href="#">Help</a>
+            </div>
+            <div class="imgSide">
+
+            </div>
+        </div>
+
+
+        <div id="food-container">
+            <div id="header">
+                <div class="add box">
+                    <i class="fa fa-map-marker your-address" id="add-address">Your Address</i>
+                </div>
+                <div class="util">
+                    <i class="fa fa-search">Search</i>
+                    <i class="fa fa-tags">Offers</i>
+                    <i class="fa fa-cart-plus" id="cart-plus">0 Items</i>
+                </div>
+            </div>
+
+<!--================= Food Items container =============-->
+
+            <div id="food-items" >
+
+                <!--------- image slider -------->
+                <div class="imgSlider">
+
+                </div>
+
+                <!-- ==================== BIRYANI ===================  -->
+
+                <div id="biryani">
+                    <p id="category-name">Biryani</p>
+                </div>
+                <!--===================== CHICKEN ================-->
+
+                <div id="chicken">
+                    <p id="category-name">Chicken Delicious</p>
+                   </div>
+
+                   <br><br><hr><br>
+                   <!--------- image slider -------->
+                <div class="imgSlider2">
+
+                </div>
+
+                <!--===================== PANEER ================-->
+                <div id="paneer">
+                    <p id="category-name">Paneer Mania</p>
+                </div>
+                <!--===================== PURE VEG ================-->
+
+                <div id="vegetables">
+                    <p id="category-name">Pure Veg Dishes</p>
+                </div>
+
+
+                <br><br><hr><br>
+                <!--------- image slider -------->
+                <div class="imgSlider4">
+
+                </div>
+                <!--===================== CHINESE ================-->
+
+                <div id="chinese">
+                    <p id="category-name">Chinese Corner</p>
+                </div>
+
+                <!--===================== SOUTH INDIAN ================-->
+
+                <div id="south-indian">
+                    <p id="category-name">South Indian</p>
+                </div> 
+            </div>
+
+            <br><br><hr><br>
+            <!--------- image slider -------->
+            <div class="imgSlider6">
+
+            </div>
+            <br><br><hr>
+            <!-- ==========cart page ========== -->
+
+            <div id="cart-page" class="cart-toggle">
+                <p id="cart-title"> Cart Items</p>
+                <p id="m-total-amount">Total Amount : $ 100</p>
+                <table>
+                    <thead>
+                        <td>Item</td>
+                        <td>Name</td>
+                        <td>Quantity</td>
+                        <td>Price</td>
+                    </thead>
+                    <tbody id="table-body">   
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+
+        <!--===================== END ================-->
+
+
+        <div id="cart">
+           <div class="taste-header">
+            <div class="user">
+                <i class="fa fa-user-circle">
+                    Account
+                </i>
+            </div>
+           </div>
+           <div id="category-list">
+            <p class="item-menu">Go For Hunt</p>
+            <div class="border"></div>
+           
+
+           </div>
+           <div id="checkout" class="cart-toggle" >
+            <p id="total-item">Total Item : 5</p>
+            <p id="total-price">Total Amount : $ 50</p>
+            <p id="delivery"> Free Delivery above $ 30 </p>
+            <button class="cart-btn" > checkout</button>
+            
+        </div>
+
+        </div>
+    </div>
+    <!-- ===== responsive ==== -->
+    <!-- <div id="mobile-view" class="mobile-view">
+     <div class="mobile-top">
+        <div class="logo-box">
+            <img src="./images/lgo.png" alt="logo">
+            <i class="fa fa-map-marker your-address" id="m-your-address">Your Address</i>
+        </div>
+        <div class="top-menu">
+            <i class="fa fa-search"></i>
+            <i class="fa fa-tag"></i>
+            <i class="fa fa-heart-o"></i>
+            <i class="fa fa-cart-plus"></i>
+            <i class="fa fa-search" id="m-cart-plus">0</i>
+        </div>
+     </div>
+
+
+    </div> -->
+
+
+    <script src="/script.js" type="module"> </script>
+</body>
+</html>
